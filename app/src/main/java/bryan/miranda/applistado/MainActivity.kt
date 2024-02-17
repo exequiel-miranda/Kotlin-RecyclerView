@@ -18,12 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         val datos = arrayOf("Bryan", "Juan", "Pablo", "Jose", "Lucas", "Maria", "Lucia", "Juan", "Pablo", "Jose", "Lucas" )
 
+        //Configuro el adaptador que alimentará la lista
         val miAdaptador = ClaseAdaptador(datos)
-
         miRecyclerView.adapter = miAdaptador
-
-
-
-
     }
 }
